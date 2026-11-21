@@ -1,0 +1,15 @@
+# Acceptance Criteria
+- Student pseudonym tampil di area publik; full name/NIM/email tidak.
+- Feed punya hashtag/course/meeting/topic/lecturer jika tersedia; search berfungsi.
+- Student dapat post/reply; lecturer read-only.
+- Course memiliki meeting; meeting menampilkan materi/arsip/sumber belajar jika ada.
+- Room module punya List/Map; map memakai aset asli; room detail foto aktual atau empty state.
+- Student dapat request PENDING dan melihat status/alasan.
+- CDC melihat request/identitas pemohon, approve/reject; reject wajib reason.
+- Approval conflict dengan jadwal akademik/approved booking diblokir.
+- Timetable mencerminkan status.
+- Lecturer melihat jadwal/lokasi; highlight hanya jika mapping valid.
+- Lecturer insights anonim, tanpa identity; tidak ada reply control; acknowledgement berfungsi.
+- Notification center per role dan read/unread.
+- Loading/empty/error/success states.
+- Mock auth/schedule diberi label DEMO; tidak diklaim integrasi nyata.

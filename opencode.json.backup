@@ -1,0 +1,21 @@
+﻿{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "tokengateway/deepseek-v4.1-flash",
+  "providers": {
+    "tokengateway": {
+      "name": "TokenGateway",
+      "env": [
+        "TOKENGATEWAY_API_KEY"
+      ],
+      "package": "@opencode/ai/providers/openai-compatible",
+      "settings": {
+        "baseURL": "https://tokengateway.dev/v1"
+      },
+      "models": {
+        "deepseek-v4.1-flash": {
+          "name": "DeepSeek V4.1 Flash"
+        }
+      }
+    }
+  }
+}
